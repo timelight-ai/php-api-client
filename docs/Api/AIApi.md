@@ -5,7 +5,7 @@ All URIs are relative to *http://localhost*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**v1AiAnomaliesSourceIdGet**](AIApi.md#v1AiAnomaliesSourceIdGet) | **GET** /v1/ai/anomalies/{sourceId} | Auto detect-anomalies
-[**v1AiRecomputeDayModelsSourceIdYearPost**](AIApi.md#v1AiRecomputeDayModelsSourceIdYearPost) | **POST** /v1/ai/recompute-day-models/{sourceId}/{year} | Recomputes all day modesl
+[**v1AiRecomputeDayModelsSourceIdYearPost**](AIApi.md#v1AiRecomputeDayModelsSourceIdYearPost) | **POST** /v1/ai/recompute-day-models/{sourceId}/{year} | Recomputes all day models
 [**v1AiRecomputeDaysProjectionSourceIdYearPost**](AIApi.md#v1AiRecomputeDaysProjectionSourceIdYearPost) | **POST** /v1/ai/recompute-days-projection/{sourceId}/{year} | Computes all days projection for a source and save them
 [**v1AiRecomputeModelsSourceIdYearPost**](AIApi.md#v1AiRecomputeModelsSourceIdYearPost) | **POST** /v1/ai/recompute-models/{sourceId}/{year} | Triggers a model recompute
 [**v1AiRecomputeSourceModelsModelCountPost**](AIApi.md#v1AiRecomputeSourceModelsModelCountPost) | **POST** /v1/ai/recompute-source-models/{modelCount} | Triggers a model recompute for source groups
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 # **v1AiRecomputeDayModelsSourceIdYearPost**
 > \TimelightAi\Model\RecomputeDayModelsResponseDto v1AiRecomputeDayModelsSourceIdYearPost($year, $source_id)
 
-Recomputes all day modesl
+Recomputes all day models
 
 Erases and re-computes all day models for a source and year
 
